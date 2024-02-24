@@ -47,7 +47,7 @@ services:
       - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: 'root'
-      MYSQL_USER: 'threelAdmin'
+      MYSQL_USER: 'root'
       MYSQL_PASS: 'root'
     volumes:
       - ./db-data:/var/lib/mysql
